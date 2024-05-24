@@ -8,6 +8,7 @@
       class="d-inline-block align-text-top me-2 p-1"
     />
     <button
+      (click)="show = !show"
       class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
@@ -18,7 +19,11 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent "
+      [ngClass]="{ show: show }"
+    >
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a

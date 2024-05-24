@@ -16,4 +16,5 @@ export class HeaderComponent {
         navbarColorChange.classList.remove('scroll');
       }
   }
+  show: boolean = false;
 }

@@ -25,5 +25,8 @@ export class DetailComponent {
       console.log(this.bikiniSvc.getByModel(params.model));
       console.log(params.model);
     });
+    let audio = new Audio();
+    audio.src = '../../../assets/audio/audio.mp3';
+    audio.play();
   }
 }

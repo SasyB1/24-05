@@ -1,1 +1,37 @@
-<p>card works!</p>
+<div
+  class="card rounded-5 text-center"
+  [ngClass]="{
+    bgCardAvailable: cardBikini?.available,
+    bgCardUnavailable: !cardBikini?.available
+  }"
+>
+  <img
+    [src]="cardBikini?.modelImage"
+    class="card-img-top rounded-5"
+    alt="..."
+  />
+
+  <div class="card-body">
+    <h5 class="card-title">{{ cardBikini?.brand }} {{ cardBikini?.model }}</h5>
+    <div class="container">
+      <div class="row row-cols-2 mb-2 text-light">
+        <div class="col">
+          <p class="card-text cardInfo rounded-4">
+            Anno: {{ cardBikini?.year }}
+          </p>
+        </div>
+        <div class="col">
+          <p class="card-text cardInfo rounded-4">
+            Prezzo: {{ cardBikini?.price }} €
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <a
+      class="btn cardInfo text-light rounded-5"
+      routerLink="/{{ cardBikini?.brand }}"
+      >Tutti i prodotti {{ cardBikini?.brand }}</a
+    >
+  </div>
+</div>

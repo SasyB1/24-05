@@ -1,1 +1,42 @@
-<p>yamamay works!</p>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-3 d-none align-items-center align-items-end d-md-flex">
+      <img
+        src="https://yamamay.vtexassets.com/assets/vtex.file-manager-graphql/images/f0aeaa3f-cdff-4b3d-99ae-a3d99ca59313___eb890811d644ff7a35bb49f8429ac71f.png"
+        alt=""
+        class="w-50"
+      />
+      <img
+        src="https://yamamay.vtexassets.com/assets/vtex.file-manager-graphql/images/d17f1695-3530-4879-be57-41b889692cd0___361335fd20beed566f0f0c8b649b166d.png"
+        alt=""
+        class="w-50"
+      />
+    </div>
+    <div class="col-6 d-flex justify-content-center mt-3">
+      <img
+        src="https://media.engage.it/2021/12/yamamay_578624.jpg"
+        alt=""
+        id="imgLogo"
+      />
+    </div>
+    <div class="col-3 d-none align-items-center align-items-end d-md-flex">
+      <img
+        src="https://yamamay.vtexassets.com/assets/vtex.file-manager-graphql/images/02e04f0d-91fc-4125-9d34-ff90ba53379c___7d04a901d1d6361f898ab5bf3917bdd9.png"
+        alt=""
+        class="w-50"
+      />
+      <img
+        src="https://yamamay.vtexassets.com/assets/vtex.file-manager-graphql/images/0e3dd4d6-f56a-4235-a4b3-1b3f3016bbb4___da993aed1c4bce92a03fdc2d2e10699e.png"
+        alt=""
+        class="w-50"
+      />
+    </div>
+  </div>
+</div>
+<div
+  class="d-flex flex-column flex-md-row align-items-center justify-content-evenly mt-3"
+>
+  <div class="d-inline-block mx-2 mb-2" *ngFor="let bikini of bikiniArr">
+    <app-card [cardBikini]="bikini"></app-card>
+  </div>
+</div>

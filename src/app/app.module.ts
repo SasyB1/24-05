@@ -14,6 +14,7 @@ import { HeroComponent } from './main-components/hero/hero.component';
 import { YamamayComponent } from './pages/yamamay/yamamay.component';
 import { TezenisComponent } from './pages/tezenis/tezenis.component';
 import { CalzedoniaComponent } from './pages/calzedonia/calzedonia.component';
+import { DetailComponent } from './pages/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CalzedoniaComponent } from './pages/calzedonia/calzedonia.component';
     YamamayComponent,
     TezenisComponent,
     CalzedoniaComponent,
+    DetailComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

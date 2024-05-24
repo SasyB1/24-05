@@ -23,4 +23,8 @@ export class BikiniService {
     await this.getBikini();
     return this.bikiniArr.filter((bikini: iBikini) => bikini.brand === brand);
   }
+
+  getByModel(model: string) {
+    return this.bikiniArr.find((bikini: iBikini) => bikini.model == model);
+  }
 }

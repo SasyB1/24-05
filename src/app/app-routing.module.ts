@@ -5,6 +5,7 @@ import { Page404Component } from './pages/page404/page404.component';
 import { YamamayComponent } from './pages/yamamay/yamamay.component';
 import { TezenisComponent } from './pages/tezenis/tezenis.component';
 import { CalzedoniaComponent } from './pages/calzedonia/calzedonia.component';
+import { DetailComponent } from './pages/detail/detail.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,11 @@ const routes: Routes = [
     path: 'Calzedonia',
     component: CalzedoniaComponent,
     title: 'Calzedonia',
+  },
+  {
+    path: 'detail/:model',
+    component: DetailComponent,
+    title: 'Detail',
   },
   {
     path: '**',

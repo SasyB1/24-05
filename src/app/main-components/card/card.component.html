@@ -27,11 +27,17 @@
         </div>
       </div>
     </div>
-
-    <a
-      class="btn cardInfo text-light rounded-5"
-      routerLink="/{{ cardBikini?.brand }}"
-      >Tutti i prodotti {{ cardBikini?.brand }}</a
-    >
+    <div>
+      <a
+        class="btn cardInfo text-light rounded-5 me-2"
+        routerLink="/{{ cardBikini?.brand }}"
+        >Tutti i prodotti {{ cardBikini?.brand }}</a
+      >
+      <a
+        class="btn cardInfo text-light rounded-5"
+        [routerLink]="['/detail', cardBikini?.model]"
+        >Info</a
+      >
+    </div>
   </div>
 </div>

@@ -2,7 +2,7 @@
   {
     "brand": "Yamamay",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pyJ4wXtvVaOQ23SL_3hTMi6Ck9z6yaDs0g&s",
-    "model": "Fascia push up ",
+    "model": "Fascia push up",
     "modelImage": "../assets/img/bikini1.png",
     "year": 2015,
     "price": 7500,
@@ -11,7 +11,7 @@
   {
     "brand": "Yamamay",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pyJ4wXtvVaOQ23SL_3hTMi6Ck9z6yaDs0g&s",
-    "model": "Balconcino ",
+    "model": "Balconcino",
     "modelImage": "../assets/img/bikini2.png",
     "year": 2010,
     "price": 3500,
@@ -29,7 +29,7 @@
   {
     "brand": "Tezenis",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR38xcL_4YsWr-dKMZJCfLeWkcvu63oF6KOJQ&s",
-    "model": "Bikini Fascia Sparkle ",
+    "model": "Bikini Fascia Sparkle",
     "modelImage": "../assets/img/bikini4.png",
     "year": 2014,
     "price": 9700,
@@ -38,7 +38,7 @@
   {
     "brand": "Calzedonia",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-bUuL07SrezrayMe35wzbqn1HwMFO3jGJbsDbeT0kM1x0kIZQImsc_A3JtyFQqT44xY&usqp=CAU",
-    "model": "Slip  Double ",
+    "model": "Slip  Double",
     "modelImage": "../assets/img/bikini5.png",
     "year": 2012,
     "price": 4300,
@@ -47,7 +47,7 @@
   {
     "brand": "Calzedonia",
     "brandLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-bUuL07SrezrayMe35wzbqn1HwMFO3jGJbsDbeT0kM1x0kIZQImsc_A3JtyFQqT44xY&usqp=CAU",
-    "model": "Triangolo Double ",
+    "model": "Triangolo Double",
     "modelImage": "../assets/img/bikini6.png",
     "year": 2020,
     "price": 41700,
